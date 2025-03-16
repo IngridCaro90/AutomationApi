@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite de pruebas AutomationApi" thread-count="1" parallel="tests">
+
+    <test name="Test obtener lista de productos">
+        <classes>
+            <class name="apis.GetProductsTest"> </class>
+        </classes>
+    </test>
+
+    <test name="Test agregar producto nuevo">
+        <classes>
+            <class name="apis.PostAddProductTest"> </class>
+        </classes>
+    </test>
+
+    <test name="Test actualizar producto">
+        <classes>
+            <class name="apis.PutUpdateProductTest"> </class>
+        </classes>
+    </test>
+
+    <test name="Test eliminar producto">
+        <classes>
+            <class name="apis.apis.DeleteProductTest"> </class>
+        </classes>
+    </test>
+
+</suite>
